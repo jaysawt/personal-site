@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0;
+}
+
+.top_block{
+    display: flex;
+    flex: 1;
+}
+
+.bottom_block{
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .top_block,
+    .bottom_block {
+        flex-direction: column;
+    }
+}
+
+.intro{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic{
+    flex: 1;
+    padding: 50px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    border-top: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_inner{
+    padding: 50px;
+}
+
+.name_inner{
+    padding: 50px;
+}
+
+
+.center_inner p a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+.center_inner p a:hover {
+    color: blue;
+}
+
+/*------------------------------EDUCATION PAGE------------------------------------------*/
+.back{
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bubble_left{
+    background-image: linear-gradient(to right, black , grey);
+    color: white;
+    font-size: 18px;
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bubble_right{
+    background-image: linear-gradient(to right, black , grey);
+    color: white;
+    font-size: 18px;
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bubble_left {
+    align-self: flex-start; /* Align to the start of the flex container (left) */
+}
+
+.bubble_right {
+    align-self: flex-end; /* Align to the end of the flex container (right) */
+}
+
+.title{
+    font-family: 'Proza Libre';
+}
+
+.value{
+    font-family: 'Roboto';
+}
+
+@media (max-width: 760px){
+    .bubble_left{
+        max-width: 350px;
+        align-self: center;
+        height: 250px;
+        padding: 0px;
+    }
+    .bubble_right{
+        max-width: 350px;
+        align-self: center;
+        height: 250px;
+        padding: 0px;
+    }
+}
+
+.btn{
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, black, grey);
+}
+.btn:hover{
+    background-image: linear-gradient(to bottom, grey, black);
+    text-decoration: underline;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*-------------------------------EXPERIENCE PAGE---------------------------------------------*/
+
+.button{
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, grey, white);
+    text-decoration: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(to bottom, white, grey);
+    text-decoration: underline;
+}
+
+.ground{
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----------------------------------------------------------------------------------------------*/

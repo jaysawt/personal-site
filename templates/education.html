@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Site</title>
+    <link rel="icon" href="static/images/favicon.ico">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Proza+Libre:ital,wght@0,500;1,500&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="back" style="background-image: url({{url_for('static', filename='images/white_background.jpg')}}); background-size: cover; background-position:center;">
+        <h1 style="font-family: Open Sans; font-style: italic; text-align: center; font-weight: 800; padding-bottom: 20px;">Educational History</h1>
+        <div class="bubble_left">
+            <p><span class="title">School:</span> <span class="value">People's High School</span></p>
+            <p><span class="title">Passout Year:</span> <span class="value">2013</span></p>
+            <p><span class="title">Location:</span> <span class="value">Panaji-Goa</span></p>
+            <p><span class="title">Percentage:</span> <span class="value">84.166%</span></p>
+        </div>
+        <div class="bubble_right">
+            <p><span class="title">College:</span> <span class="value">People’s Higher Secondary School</span></p>
+            <p><span class="title">Passout Year:</span> <span class="value">2015</span></p>
+            <p><span class="title">Location:</span> <span class="value">Panaji-Goa</span></p>
+            <p><span class="title">Percentage:</span> <span class="value">78.83%</span></p>
+        </div>
+        <div class="bubble_left">
+            <p><span class="title">Graduation:</span> <span class="value">Goa College of Engineering</span></p>
+            <p><span class="title">Passout Year:</span> <span class="value">2019</span></p>
+            <p><span class="title">Location:</span> <span class="value">Ponda-Goa</span></p>
+            <p><span class="title">Percentage(5th-8th Semester Mechanical Engineering):</span> <span class="value">70.51%</span></p>
+        </div>
+        <a class="btn" style="color: white;border-radius: 15px;padding: 10px 20px;font-size: 20px;" href={{url_for('home')}}>Back Home</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
