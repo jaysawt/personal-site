@@ -1,3 +1,4 @@
+import awsgi
 from flask import Flask, render_template, url_for
 from flask_bootstrap import Bootstrap
 import datetime
@@ -21,5 +22,9 @@ def experience():
     return render_template('experience.html')
 
 
+def handler(event, context):
+    return awsgi.response(app, event, context)
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

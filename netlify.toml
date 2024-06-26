@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  command = "python main.py"
+
+[functions]
+  directory = "netlify/functions"
