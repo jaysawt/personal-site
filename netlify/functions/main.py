@@ -27,5 +27,5 @@ def handler(event, context):
 
 
 if __name__ == '__main__':
-    # app.run()
+    # app.run()  # this is done so that netlify doesnot use flask server as it interupts with awsgi
     pass

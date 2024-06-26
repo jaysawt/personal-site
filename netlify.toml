@@ -1,5 +1,4 @@
 [build]
-  publish = "public"
   command = "python netlify/functions/main.py"
 
 [functions]
