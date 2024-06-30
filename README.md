@@ -1,5 +1,7 @@
 # Personal Site Project 🌟
 
+# My CV
+
 ## Overview ℹ️
 
 This project is a personal website developed using Python Flask, HTML, CSS, and Bootstrap. It serves as a portfolio to showcase my skills, experience, and projects.
