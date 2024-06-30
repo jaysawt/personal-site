@@ -2,7 +2,7 @@
 
 ## Overview ℹ️
 
-This project is a personal website developed using Python Flask, HTML, CSS, and Bootstrap. It serves as a portfolio to showcase your skills, experience, and projects.
+This project is a personal website developed using Python Flask, HTML, CSS, and Bootstrap. It serves as a portfolio to showcase my skills, experience, and projects.
 
 ## Features ✨
 
